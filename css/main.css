@@ -1386,7 +1386,7 @@ h1,h2,h3{
 }
 .block-services {
     display: flex;
-    font-family:dxmonoregular,sans-serif;
+    font-family:proximanova-semibold,sans-serif;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
