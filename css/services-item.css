@@ -1,0 +1,13 @@
+#service-description{
+    width: 90%;
+    height: 90%;
+    border: sold white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modal-transition{
+    border: red solid 1px;
+    width: calc(100vw-1px);
+}
