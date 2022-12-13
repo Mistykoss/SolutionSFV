@@ -391,6 +391,7 @@ h1,h2,h3{
 .page__h2{
     font-family:gilroy-extrabold,sans-serif;
     font-size:2em;
+    color: #303030;
     margin:0;
     width:30%;
     text-align:right;
@@ -399,7 +400,15 @@ h1,h2,h3{
     padding:0 30px;
     letter-spacing:-.1px;
     padding-top:40px;
-    text-shadow: 1px 1px 0 white, 1px -1px 0 white, -1px 1px 0 white, -1px -1px 0 white, 1px 0px 0 white, 0px 1px 0 white, -1px 0px 0 white, 0px -2px 0 white;
+    text-shadow:
+            1px 1px 0 white,
+            1px -1px 0 white,
+            -1px 1px 0 white,
+            -1px -1px 0 white,
+            1px 0px 0 white,
+            0px 1px 0 white,
+            -1px 0px 0 white,
+            0px -2px 0 white;
 
 }
 .page__h2 span{
@@ -410,6 +419,8 @@ h1,h2,h3{
     left:auto;
     text-shadow: none;
 }
+
+
 
 .page__hero-p{
     font-family:proximanova-semibold,sans-serif;
@@ -1636,6 +1647,7 @@ h1,h2,h3{
     box-sizing:content-box;
     position:absolute;
     height:100%;
+    margin-right: 160px;
     padding:0;
     opacity:0;
     transform:translateX(-100%)
@@ -1645,6 +1657,8 @@ h1,h2,h3{
 }
 .execute__h3{
     font-family:gilroy-extrabold,sans-serif;
+    color:#181818;
+
     font-size:24px;
     letter-spacing:-.1px;
     line-height:1.5;
@@ -1655,8 +1669,8 @@ h1,h2,h3{
 }
 .execute__p{
     font-family:proximanova-semibold,sans-serif;
-    color:#636363;
-    font-size:18px;
+    color:#4c4c4c;
+    font-size:20px;
     line-height:1.5;
     margin-top:0
 }
