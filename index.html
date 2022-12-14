@@ -92,8 +92,8 @@
         </div>
       </div>
       <div id="solution-screen" class="solution-screen">
-        <div class="full-flex" style="display: none">
-          <div id="solution-screen__text-1" class="solution-screen__text">
+        <div class="full-flex">
+          <div id="solution-screen__text-1" class="solution-screen__text"  style="display: none;">
             Our <strong>mission</strong> is to help our clients to adopt
             cybersecurity culture, strategies and techniques to introduce best
             practices of Cyber and Information Security protection, and
@@ -101,22 +101,19 @@
             organizations to avoid threats and hardener their defense.
           </div>
         </div>
-        <div class="full-flex" style="display: none;"">
+        <div class="full-flex">
         <div
           id="solution-screen__text-2"
-          class="solution-screen__text solution-screen__text-2"
+          class="solution-screen__text solution-screen__text-2" style="display: none;"
         >
           Our <strong>vision</strong> is to become an outstanding cyber agent,
           defender, consultant and leader that is consistently delivering
           advanced and integrated cybersecurity services and &nbsp;solutions.
         </div>
-        <div
-          id="solution-screen__mobile-content"
-          class="solution-screen__mobile-content"
-        >
-          <div class="solution-screen__mobile-explore">Explore</div>
-          <div class="solution-screen__mobile-execute">Execute</div>
-          <div class="solution-screen__mobile-extract">Extract</div>
+        <div id="solution-screen__mobile-content" class="solution-screen__mobile-content">
+          <model-viewer id="candado" src="/media/models/cand.glb" auto-rotate poster="poster.webp"
+            shadow-intensity="0"> </model-viewer>
+        
         </div>
       </div>
     </div>
@@ -1024,5 +1021,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
     <script src="js/bundle.js"></script>
     <script src="js/modal-fill.js"></script>
+    <!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </body>
 </html>

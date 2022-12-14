@@ -1,4 +1,5 @@
 /*!For license information please see bundle.js.LICENSE.txt*/
+
 (() => {
   var e = {
       6981: (e, t, n) => {
@@ -50129,6 +50130,8 @@
           );
         }
       }
+      let aquisegenera;
+      
       var gh = new (class {
           constructor({ logs: e = !1, progressBar: t = !0 } = {}) {
             (this.progressBar = t),
@@ -50136,6 +50139,8 @@
               (this.progress = 0),
               (this.onProgress = !1),
               (this.init = !1),
+              (contador = 1),
+              console.log("eh contado "),
               (this.domElements = {}),
               (this.loadingManager = new Ps()),
               this.handleLoadingManager(),
@@ -50295,6 +50300,27 @@
         }),
         vh = "Standard-Cube-Map",
         yh = "jpg";
+
+        var onView = false;
+        /*
+      document.addEventListener("click", function (e) {
+        console.log("fue tocado");
+        gh.load(
+          [
+          {
+            alias: "delta",
+            type: "gltf",
+            path: "media/models/candado.glb",
+          },
+        ]
+        );
+      });
+
+*/
+      var contador = 0;
+      if (onView) {
+      }
+
       gh.load([
         {
           alias: "delta",
@@ -50425,6 +50451,8 @@
       ]);
       const xh = gh,
         wh = class {
+          count = 1;
+
           constructor(e) {
             const t = this;
             (t.actions = {}),
